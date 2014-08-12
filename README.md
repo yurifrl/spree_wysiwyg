@@ -1,40 +1,45 @@
-SpreeWysiwyg
-============
+# Spree WYSIWYG
 
-Introduction goes here.
+This extension adds a WYSIWYG editor to the products description textarea.
 
-Installation
-------------
+<p align="center">
+  <img src="https://raw.github.com/yurifrl/spree_wysiwyg/master/screenshots/screenshot.png" alt="spree_wysiwyg screenshot" title="spree_wysiwyg screenshot" width="721" height="449" />
+</p>
 
-Add spree_wysiwyg to your Gemfile:
+## Installation
 
-```ruby
-gem 'spree_wysiwyg'
-```
+Add this line to your application's Gemfile:
 
-Bundle your dependencies and run the installation generator:
+    gem 'spree_wysiwyg'
 
-```shell
-bundle
-bundle exec rails g spree_wysiwyg:install
-```
+Or add this line to your application's Gemfile:
 
-Testing
--------
+    gem 'spree_wysiwyg', :git => 'https://github.com/fernandoaleman/spree_wysiwyg', :branch => '1-3-stable'
 
-Be sure to bundle your dependencies and then create a dummy test app for the specs to run against.
+And then execute:
 
-```shell
-bundle
-bundle exec rake test_app
-bundle exec rspec spec
-```
+    $ bundle
 
-When testing your applications integration with this extension you may use it's factories.
-Simply add this require statement to your spec_helper:
+Or install it yourself as:
 
-```ruby
-require 'spree_wysiwyg/factories'
-```
+    $ gem install spree_wysiwyg
 
-Copyright (c) 2014 [name of extension creator], released under the New BSD License
+## Usage
+
+Once installed, run:
+
+    rails generate spree_wysiwyg:install
+
+Or you may need to run:
+
+    bundle exec rails generate spree_wysiwyg:install
+
+## Contributing
+
+1. Fork it
+2. Create your feature branch (`git checkout -b my-new-feature`)
+3. Commit your changes (`git commit -am 'Add some feature'`)
+4. Push to the branch (`git push origin my-new-feature`)
+5. Create new Pull Request
+
+Copyright (c) 2013 spree_wysiwyg, released under the New BSD License
