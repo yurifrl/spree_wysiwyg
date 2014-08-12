@@ -1,5 +1,5 @@
 # Spree WYSIWYG
-
+Copy of https://github.com/fernandoaleman/spree_wysiwyg
 This extension adds a WYSIWYG editor to the products description textarea.
 
 <p align="center">
